@@ -1,0 +1,36 @@
+{
+  "name": "REF_Exam2_Performer",
+  "description": "1.Login to https:/www.acme-test.com.\r\n2. For each Queue Item:\r\n- Click or hover over the Invoices menu item and then click on Search for Invoice;\r\n- Type the Invoice Number retrieved from the queue item into the Invoice Number field field;\r\n- Click on Search;\r\n- Extract the values for the Vendor TaxID and Date and compare them with the values from the queue item (check for EXACT match for all fields!);\r\n- If the values are not matching, this should be categorized as a Business Rule Exception, an",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.8.1-preview]",
+    "UiPath.System.Activities": "[20.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.2.0-preview]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.2.0.108",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
